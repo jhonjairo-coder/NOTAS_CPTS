@@ -1,6 +1,7 @@
 We will use LDAP to query the domain using “ldapsearch” as an anonymous user
 
 
+
 ``` shell
 -x : simple authentication (instead of SASL)  
 -H : target LDAP/S server  
@@ -414,5 +415,37 @@ administrator S-1-5-21-1588247407-410625039-1511794522-500 (User: 1)
 ```
 
 
+
+# RootDSE (esquema de AD)
+
+- El comando consulta el **RootDSE** del servidor LDAP.
+- Devuelve los **naming contexts** (particiones) del Active Directory.
+- La consulta fue **anónima** y exitosa.
+
+```shell
+ldapsearch -x -H ldap://10.129.25.186 -s base namingcontexts
+# extended LDIF
+#
+# LDAPv3
+# base <> (default) with scope baseObject
+# filter: (objectclass=*)
+# requesting: namingcontexts 
+#
+
+#
+dn:
+namingcontexts: DC=scrm,DC=local
+namingcontexts: CN=Configuration,DC=scrm,DC=local
+namingcontexts: CN=Schema,CN=Configuration,DC=scrm,DC=local
+namingcontexts: DC=DomainDnsZones,DC=scrm,DC=local
+namingcontexts: DC=ForestDnsZones,DC=scrm,DC=local
+
+# search result
+search: 2
+result: 0 Success
+
+# numResponses: 2
+# numEntries: 1
+```
 
 

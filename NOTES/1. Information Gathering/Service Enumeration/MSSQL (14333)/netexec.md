@@ -21,3 +21,5 @@ MSSQL       10.129.222.60   1433   DC01             [-] DC01\oscar:MSSQLP@ssw0rd
 MSSQL       10.129.222.60   1433   DC01             [-] DC01\kevin:MSSQLP@ssw0rd! (Login failed for user 'kevin'. Please try again with or without '--local-auth')
 MSSQL       10.129.222.60   1433   DC01             [+] DC01\sa:MSSQLP@ssw0rd! (Pwn3d!)
 ```
+
+
