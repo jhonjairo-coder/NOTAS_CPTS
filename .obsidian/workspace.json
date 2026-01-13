@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NOTES/3. Exploitation/Active Directory Attacks/getTGT Autenticacion con Ticket de Kerberos.md",
+                "file": "NOTES/5. Lateral Movement/Active Directory Lateral Movement/LAPS (Local Administrator Password Solution).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "getTGT Autenticacion con Ticket de Kerberos"
+              "title": "LAPS (Local Administrator Password Solution)"
             }
           }
         ],
@@ -93,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 311.5
+    "width": 435.5
   },
   "right": {
     "id": "9581d0bba43bc6e2",
@@ -187,33 +187,35 @@
   },
   "active": "cbb8e832ca4c8b57",
   "lastOpenFiles": [
-    "NOTES/2. Pre-Exploitation/Shells/PTR records sweep (IP to FQDN).md",
+    "Pasted image 20260112222939.png",
     "NOTES/1. Information Gathering/Active Directory Enumeration/Bloodhound.md",
     "NOTES/1. Information Gathering/Active Directory Enumeration/Enumeración de Grupos y Privilegios en Active Directory.md",
-    "NOTES/1. Information Gathering/Active Directory Enumeration/Kerberoasting Attack.md",
-    "NOTES/1. Information Gathering/Active Directory Enumeration/ASREPRoast attack.md",
-    "NOTES/1. Information Gathering/Active Directory Enumeration/User Enumeration/KerberBrute.md",
-    "NOTES/3. Exploitation/Active Directory Attacks/Vulnerable Certificate Template Enumeration.md",
-    "NOTES/1. Information Gathering/Service Enumeration/MSSQL (14333)/Enumueración.md",
-    "NOTES/1. Information Gathering/Service Enumeration/LDAP (389).md",
-    "NOTES/3. Exploitation/Active Directory Attacks/getTGT Autenticacion con Ticket de Kerberos.md",
-    "NOTES/1. Information Gathering/Active Directory Enumeration/User Enumeration/passwordspry.md",
-    "NOTES/3. Exploitation/Active Directory Attacks/ADCS Attack Series/Abusing ESC1 via Template ACLs for Privilege Escalation.md",
-    "NOTES/1. Information Gathering/Active Directory Enumeration/User Enumeration",
+    "NOTES/4. Post-Exploitation/Windows Post Exploitation/Decrypt Mozilla protected passwords.md",
     "NOTES/4. Post-Exploitation/Windows Post Exploitation/Important command.md",
-    "NOTES/1. Information Gathering/Service Enumeration/MSSQL (14333)/netexec.md",
-    "NOTES/1. Information Gathering/Service Enumeration/SMB (139, 445)/SMBclient.md",
+    "NOTES/4. Post-Exploitation/Windows Post Exploitation/Privilege Escalation/User Privileges/SeDebugPrivilege.md",
+    "NOTES/4. Post-Exploitation/Windows Post Exploitation/Privilege Escalation/User Privileges/SeImpersonatePrivilege.md",
     "NOTES/5. Lateral Movement/Active Directory Lateral Movement/LAPS (Local Administrator Password Solution).md",
-    "NOTES/3. Exploitation/Active Directory Attacks/ADCS Attack Series/Abusing ESC4 via Template ACLs for Privilege Escalation.md",
-    "NOTES/2. Pre-Exploitation/Password Attacks/Cracking Ansible vaults.md",
+    "NOTES/5. Lateral Movement/Linux Lateral Movement/Untitled.md",
+    "NOTES/3. Exploitation/Active Directory Attacks/Kerberoasting Attack.md",
+    "NOTES/3. Exploitation/Active Directory Attacks/Vulnerable Certificate Template Enumeration.md",
+    "NOTES/2. Pre-Exploitation/Shells/PTR records sweep (IP to FQDN).md",
+    "NOTES/1. Information Gathering/Web Enumeration/SQL Injection/MSSQL Injection.md",
+    "NOTES/1. Information Gathering/Web Enumeration/SQL Injection/MSSQL Injection (sqlcmd).md",
+    "NOTES/1. Information Gathering/Web Enumeration/Web Footprinting.md",
+    "NOTES/1. Information Gathering/Web Enumeration/Hydra.md",
+    "NOTES/2. Pre-Exploitation/Password Attacks/John The Ripper/Cracking the pfx file (PKCS12) with John.md",
     "NOTES/1. Information Gathering/Application Enumeration/ESXi Enumeration & RCE on DC.md",
     "NOTES/1. Information Gathering/Application Enumeration/Wordpress/BookingPress < 1.0.11 - Unauthenticated SQL Injection.md",
-    "README.md",
-    "NOTES/4. Post-Exploitation/Windows Post Exploitation/PSReadline file.md",
-    "NOTES/1. Information Gathering/Service Enumeration/NFS (2049)/Dangerous Settings.md",
-    "NOTES/2. Pre-Exploitation/Tools/EvilWinrm.md",
-    "NOTES/2. Pre-Exploitation/Password Attacks/John The Ripper/Cracking the pfx file (PKCS12) with John.md",
-    "NOTES/2. Pre-Exploitation/Password Attacks/John The Ripper/Cracking the zip file with John.md",
+    "NOTES/1. Information Gathering/Active Directory Enumeration/Get a Domain SID.md",
+    "NOTES/1. Information Gathering/Active Directory Enumeration/Enumeración PAC.md",
+    "NOTES/1. Information Gathering/Active Directory Enumeration/ASREPRoast attack.md",
+    "NOTES/1. Information Gathering/Active Directory Enumeration/User Enumeration/passwordspry.md",
+    "NOTES/1. Information Gathering/Active Directory Enumeration/User Enumeration/KerberBrute.md",
+    "NOTES/1. Information Gathering/Web Enumeration/SQL Injection",
+    "NOTES/1. Information Gathering/Web Enumeration/Domain Information.md",
+    "NOTES/1. Information Gathering/Service Enumeration/DNS (53)/Record Type.md",
+    "Pasted image 20260106211051.png",
+    "NOTES/1. Information Gathering/Active Directory Enumeration/User Enumeration",
     "Untitled.base",
     "Untitled.canvas",
     "NOTES/2. Pre-Exploitation/Password Attacks/John The Ripper",
@@ -223,7 +225,6 @@
     "NOTES/1. Information Gathering/Service Enumeration/LDAP (389)",
     "AD-RTS/Exchange Servers",
     "NOTES/1. Information Gathering/Service Enumeration/SMTP (25,465,587)",
-    "NOTES/1. Information Gathering/Service Enumeration/DNS (53)",
     "Pasted image 20251106125901.png",
     "Imagenes/Pasted image 20251106132738.png",
     "Imagenes/Pasted image 20251106131542.png",
@@ -232,7 +233,6 @@
     "Imagenes/Pasted image 20251106131027.png",
     "Imagenes/Pasted image 20251106130951.png",
     "Imagenes/Pasted image 20251106130926.png",
-    "Imagenes/Pasted image 20251106130906.png",
-    "Imagenes/Pasted image 20251106125901.png"
+    "Imagenes/Pasted image 20251106130906.png"
   ]
 }

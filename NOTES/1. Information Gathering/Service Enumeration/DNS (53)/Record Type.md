@@ -274,7 +274,7 @@ app.inlanefreight.htb.  604800  IN      A       10.129.18.15
 https://github.com/fwaeytens/dnsenum
 
 ```shell-session
-jhonmorales@htb[/htb]$ dnsenum --dnsserver 10.129.14.128 --enum -p 0 -s 0 -o subdomains.txt -f /opt/useful/seclists/Discovery/DNS/subdomains-top1million-110000.txt inlanefreight.htb
+	jhonmorales@htb[/htb]$ dnsenum --dnsserver 10.129.14.128 --enum -p 0 -s 0 -o subdomains.txt -f /opt/useful/seclists/Discovery/DNS/subdomains-top1million-110000.txt inlanefreight.htb
 
 dnsenum VERSION:1.2.6
 
