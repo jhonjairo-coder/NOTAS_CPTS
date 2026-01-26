@@ -13,15 +13,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NOTES/6. BSCP/API Recon.md",
+                "file": "CPTS/6. BSCP/API/API Recon.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "API Recon"
             }
+          },
+          {
+            "id": "5aafb34600e3f91d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CWES/Web Requests/CRUD API.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CRUD API"
+            }
+          },
+          {
+            "id": "a21575f301f5ff38",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CWES/Web Requests/Cheat Sheet.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Cheat Sheet"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -78,7 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 435.5
+    "width": 286.5
   },
   "right": {
     "id": "9581d0bba43bc6e2",
@@ -170,54 +199,54 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "18214fcd1866740d",
+  "active": "a21575f301f5ff38",
   "lastOpenFiles": [
-    "Imagenes/Pasted image 20260122081250.png",
-    "Imagenes/Pasted image 20260122080859.png",
-    "NOTES/6. BSCP/Server-side vulnerabilities.md",
-    "Imagenes/Pasted image 20260112222939.png",
-    "Imagenes/Pasted image 20260106211051.png",
-    "NOTES/6. BSCP/API Recon.md",
+    "CWES/Web Requests/CRUD API.md",
+    "CWES/Web Requests/Cheat Sheet.md",
+    "CWES/Web Requests/HTTPS Hypertext Transfer Protocol Secure.md",
+    "CWES/Web Requests/POST.md",
+    "CWES/Web Requests/GET.md",
+    "CWES/Web Requests/HTTP Methods and Codes.md",
+    "CWES/Web Requests/HTTP Requests and Responses.md",
+    "Imagenes/Pasted image 20260123100617.png",
+    "Imagenes/Pasted image 20260123100525.png",
+    "Imagenes/Pasted image 20260123100308.png",
+    "CWES/Web Requests/HTTP HyperText Transfer Protocol.md",
+    "Imagenes/Pasted image 20260123095404.png",
+    "Imagenes/Pasted image 20260123095224.png",
+    "README.md",
+    "CWES/Web Requests",
+    "CWES",
+    "CPTS/6. BSCP/API/API Recon.md",
+    "CPTS/Untitled",
+    "CPTS/6. BSCP/API/Server-side vulnerabilities.md",
+    "CPTS/6. BSCP/API",
+    "Imagenes/Pasted image 20260123085913.png",
+    "Imagenes/Pasted image 20260123085732.png",
+    "Imagenes/Pasted image 20260123085701.png",
+    "Imagenes/Pasted image 20260123085336.png",
+    "Imagenes/Pasted image 20260123085311.png",
+    "Imagenes/Server-side variable names.md",
     "NOTES/6. BSCP/API TESTING",
     "NOTES/6. BSCP/API Testing.md",
-    "Imagenes/Pasted image 20260121140442.png",
-    "Imagenes/Pasted image 20260121140417.png",
-    "Imagenes/Pasted image 20260121084803.png",
-    "Imagenes/Pasted image 20251106131116.png",
-    "NOTES/6. BSCP",
+    "CPTS/6. BSCP",
     "Untitled 1",
-    "Imagenes/Pasted image 20251106131027.png",
-    "Imagenes/Pasted image 20251106130951.png",
-    "Imagenes/Pasted image 20251106130926.png",
-    "README.md",
-    "NOTES/5. Lateral Movement/Active Directory Lateral Movement/LAPS (Local Administrator Password Solution).md",
-    "NOTES/1. Information Gathering/Active Directory Enumeration/Bloodhound.md",
-    "NOTES/1. Information Gathering/Active Directory Enumeration/Enumeración de Grupos y Privilegios en Active Directory.md",
-    "NOTES/4. Post-Exploitation/Windows Post Exploitation/Decrypt Mozilla protected passwords.md",
-    "NOTES/4. Post-Exploitation/Windows Post Exploitation/Important command.md",
-    "NOTES/4. Post-Exploitation/Windows Post Exploitation/Privilege Escalation/User Privileges/SeDebugPrivilege.md",
-    "NOTES/4. Post-Exploitation/Windows Post Exploitation/Privilege Escalation/User Privileges/SeImpersonatePrivilege.md",
-    "NOTES/5. Lateral Movement/Linux Lateral Movement/Untitled.md",
-    "NOTES/3. Exploitation/Active Directory Attacks/Kerberoasting Attack.md",
-    "NOTES/3. Exploitation/Active Directory Attacks/Vulnerable Certificate Template Enumeration.md",
-    "NOTES/2. Pre-Exploitation/Shells/PTR records sweep (IP to FQDN).md",
-    "NOTES/1. Information Gathering/Web Enumeration/SQL Injection/MSSQL Injection.md",
+    "CPTS/5. Lateral Movement/Active Directory Lateral Movement/LAPS (Local Administrator Password Solution).md",
+    "CPTS/1. Information Gathering/Active Directory Enumeration/Bloodhound.md",
+    "CPTS/1. Information Gathering/Active Directory Enumeration/Enumeración de Grupos y Privilegios en Active Directory.md",
+    "CPTS/4. Post-Exploitation/Windows Post Exploitation/Decrypt Mozilla protected passwords.md",
+    "CPTS/4. Post-Exploitation/Windows Post Exploitation/Important command.md",
+    "CPTS/4. Post-Exploitation/Windows Post Exploitation/Privilege Escalation/User Privileges/SeDebugPrivilege.md",
+    "CPTS/4. Post-Exploitation/Windows Post Exploitation/Privilege Escalation/User Privileges/SeImpersonatePrivilege.md",
+    "CPTS/5. Lateral Movement/Linux Lateral Movement/Untitled.md",
+    "CPTS/3. Exploitation/Active Directory Attacks/Kerberoasting Attack.md",
+    "CPTS/3. Exploitation/Active Directory Attacks/Vulnerable Certificate Template Enumeration.md",
+    "CPTS/2. Pre-Exploitation/Shells/PTR records sweep (IP to FQDN).md",
+    "CPTS/1. Information Gathering/Web Enumeration/SQL Injection/MSSQL Injection.md",
     "NOTES/1. Information Gathering/Web Enumeration/SQL Injection/MSSQL Injection (sqlcmd).md",
-    "NOTES/1. Information Gathering/Web Enumeration/Web Footprinting.md",
-    "NOTES/1. Information Gathering/Web Enumeration/Hydra.md",
-    "NOTES/2. Pre-Exploitation/Password Attacks/John The Ripper/Cracking the pfx file (PKCS12) with John.md",
-    "NOTES/1. Information Gathering/Application Enumeration/ESXi Enumeration & RCE on DC.md",
-    "NOTES/1. Information Gathering/Application Enumeration/Wordpress/BookingPress < 1.0.11 - Unauthenticated SQL Injection.md",
-    "NOTES/1. Information Gathering/Active Directory Enumeration/Get a Domain SID.md",
-    "NOTES/1. Information Gathering/Active Directory Enumeration/Enumeración PAC.md",
-    "NOTES/1. Information Gathering/Active Directory Enumeration/ASREPRoast attack.md",
-    "NOTES/1. Information Gathering/Web Enumeration/SQL Injection",
-    "NOTES/1. Information Gathering/Active Directory Enumeration/User Enumeration",
+    "CPTS/1. Information Gathering/Web Enumeration/SQL Injection",
+    "CPTS/1. Information Gathering/Active Directory Enumeration/User Enumeration",
     "Untitled.base",
-    "Untitled.canvas",
-    "NOTES/2. Pre-Exploitation/Password Attacks/John The Ripper",
-    "NOTES/2. Pre-Exploitation/Password Attacks",
-    "NOTES/4. Post-Exploitation/Windows Post Exploitation/Privilege Escalation/User Privileges",
-    "NOTES/4. Post-Exploitation/Windows Post Exploitation/Privilege Escalation"
+    "Untitled.canvas"
   ]
 }
