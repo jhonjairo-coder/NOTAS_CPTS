@@ -82,7 +82,7 @@ Una vez identificados algunos puntos finales de API iniciales, puede usar Intrud
 
 `PUT /api/user/update`
 
-Para identificar puntos finales ocultos, podría usar Burp Intruder para encontrar otros recursos con la misma estructura. Por ejemplo, podría agregar una carga útil a la `/update`posición de la ruta con una lista de otras funciones comunes, como `delete`y `add`.
+Para identificar puntos finales ocultos, podría usar Burp Intruder para encontrar otros recursos con la misma estructura. Por ejemplo, podría agregar una carga útil a la `/update` posición de la ruta con una lista de otras funciones comunes, como `delete`y `add`.
 
 Al buscar endpoints ocultos, utilice listas de palabras basadas en convenciones de nomenclatura de API comunes y términos del sector. Asegúrese de incluir también términos relevantes para la aplicación, según su reconocimiento inicial.
 
