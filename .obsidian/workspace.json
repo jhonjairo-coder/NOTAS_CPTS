@@ -4,79 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "dbc68fc8c24a67a7",
+        "id": "0a20904d3e39a9b9",
         "type": "tabs",
         "children": [
           {
-            "id": "503877d0a52f7b64",
+            "id": "678baf93284ad5c9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NOTES/2. Pre-Exploitation/Extracting the certificate and key from the pfx file.md",
+                "file": "CWES/6. BSCP/API/Fuzzing API.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Extracting the certificate and key from the pfx file"
-            }
-          },
-          {
-            "id": "cbb8e832ca4c8b57",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NOTES/5. Lateral Movement/Active Directory Lateral Movement/LAPS (Local Administrator Password Solution).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "LAPS (Local Administrator Password Solution)"
-            }
-          },
-          {
-            "id": "3662e8378f76efa3",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.11.4"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.11.4"
-            }
-          },
-          {
-            "id": "a8b438031b972664",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NOTES/5. Lateral Movement/Pivoting/SSH.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "SSH"
-            }
-          },
-          {
-            "id": "58c856d2b3af7b0a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CWES/API_RTA/OAUTH 2.0.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "OAUTH 2.0"
+              "title": "Fuzzing API"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -225,14 +170,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "58c856d2b3af7b0a",
+  "active": "18214fcd1866740d",
   "lastOpenFiles": [
-    "Pasted image 20260214180713.png",
-    "Pasted image 20260214180705.png",
-    "CWES/API_RTA/JWT 101.md",
-    "CWES/API_RTA/OAUTH 2.0.md",
-    "Imagenes/Pasted image 20260214175605.png",
+    "CWES/6. BSCP/API/API2-2023 Broken Authentication.md",
+    "CWES/6. BSCP/API/Fuzzing API.md",
+    "CWES/6. BSCP/API/API Recon.md",
     "CWES/API_RTA/AUTHORIZATION 101.md",
+    "CWES/API_RTA/OAUTH 2.0.md",
+    "CWES/API_RTA/JWT 101.md",
+    "Imagenes/Pasted image 20260214180713.png",
+    "Imagenes/Pasted image 20260214180705.png",
+    "Imagenes/Pasted image 20260214175605.png",
     "Imagenes/Pasted image 20260214175024.png",
     "Imagenes/Pasted image 20260214174911.png",
     "CWES/Tools/BurpSuite.md",
@@ -258,8 +206,6 @@
     "NOTES/1. Information Gathering/Web Enumeration/SQL Injection/MSSQL Injection.md",
     "NOTES/1. Information Gathering/Web Enumeration/SQL Injection/MSSQL Injection (sqlcmd).md",
     "NOTES/1. Information Gathering/Web Enumeration/Web Footprinting.md",
-    "NOTES/1. Information Gathering/Web Enumeration/Hydra.md",
-    "NOTES/2. Pre-Exploitation/Password Attacks/John The Ripper/Cracking the pfx file (PKCS12) with John.md",
     "NOTES/1. Information Gathering/Web Enumeration/SQL Injection",
     "Pasted image 20260106211051.png",
     "NOTES/1. Information Gathering/Active Directory Enumeration/User Enumeration",
@@ -272,7 +218,6 @@
     "NOTES/1. Information Gathering/Service Enumeration/LDAP (389)",
     "Pasted image 20251106125901.png",
     "Imagenes/Pasted image 20251106132738.png",
-    "Imagenes/Pasted image 20251106131542.png",
-    "Imagenes/Pasted image 20251106131502.png"
+    "Imagenes/Pasted image 20251106131542.png"
   ]
 }
